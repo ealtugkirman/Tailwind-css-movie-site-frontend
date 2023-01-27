@@ -91,7 +91,7 @@
                 <h1 class="text-4xl lg:text-6xl text-white group-hover:mb-1 duration-500">
                     The Dark Knight
                 </h1>
-                <p class="group-hover:mb-2 duration-500 w-4/5 lg:w-2/3  text-sm lg:text-base text-white">
+                <p class="group-hover:mb-2 hidden lg:block duration-500 w-4/5 lg:w-2/3  text-sm lg:text-base text-white">
                     Lorem ipsum, dolor sit amconsectetur adipisicing elit. Vel aliquid eos veniam quibusdam perspiciatis
                     voluptatibus nobis iure sequi enim! Obcaecati.
                 </p>
@@ -401,7 +401,7 @@
         </div>
     </section>
     <!-- Matrix Section -->
-    <section class="bg-white">
+    <section class="bg-white  lg:pt-0">
         <!-- matrix section container -->
         <div class="container  flex items-center justify-center pl-10 lg:pl-0 relative">
             <!-- left content -->
@@ -436,7 +436,7 @@
             <!-- Grid Area -->
             <div class="grid grid-cols-6 gap-10">
                 <!-- item 1 -->
-                <div class="col-span-3 border col-span-6 md:col-span-3 border-last">
+                <div class="col-span-6 border lg:col-span-6 md:col-span-3 border-last">
                     <!-- item 1 header -->
                     <div class="border-b border-last p-4 flex items-center justify-between">
                         <h3>
@@ -447,19 +447,20 @@
                     <!-- item 1 parag -->
                     <p class="p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, impedit?
                         Est quos eveniet expedita labore. Lorem ipsum dolor sit amet.</p>
-
-                    <!-- item1 footer -->
-                    <div class="flex justify-end border-t items-center border-last space-x-4 font-bold text-xs">
-                        <p>ON DEC 17, 2023</p>
-                        <div class="flex items-center justify-center space-x-1">
-                            <i class="fa-regular fa-comment"></i>
-                            <p>12</p>
-                            <i class="fa-regular fa-heart"></i>
-                            <p>9</p>
+                        
+                        <!-- item1 footer -->
+                        <div class="flex justify-end border-t items-center border-last space-x-4 font-bold text-xs">
+                            <p>ON DEC 17, 2023</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>9</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="md:col-span-3  col-span-6 border border-last">
+                    <div class="hidden lg:block">
+                <div class="md:col-span-3  lg:col-span-6 border border-last">
                     <!-- item 2 header -->
                     <div class="border-b border-last p-4 flex items-center justify-between">
                         <h3>
@@ -493,29 +494,29 @@
                     <!-- item 3 parag -->
                     <p class="p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, impedit?
                         Est quos eveniet expedita labore. Lorem ipsum dolor sit amet.</p>
-
-                    <!-- item 3 footer -->
-                    <div class="flex justify-end border-t items-center border-last space-x-4 font-bold text-xs">
-                        <p>ON DEC 17, 2023</p>
-                        <div class="flex items-center justify-center space-x-1">
-                            <i class="fa-regular fa-comment"></i>
-                            <p>12</p>
-                            <i class="fa-regular fa-heart"></i>
-                            <p>9</p>
+                        
+                        <!-- item 3 footer -->
+                        <div class="flex justify-end border-t items-center border-last space-x-4 font-bold text-xs">
+                            <p>ON DEC 17, 2023</p>
+                            <div class="flex items-center justify-center space-x-1">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>12</p>
+                                <i class="fa-regular fa-heart"></i>
+                                <p>9</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="lg:col-span-2 col-span-3 border border-last">
-                    <!-- item 4  header -->
-                    <div class="border-b border-last p-4 flex items-center justify-between">
-                        <h3>
-                            Lorem ipsum dolor sit.
-                        </h3>
-                        <img src="./images/userava4.jpg" class="rounded-full" alt="">
-                    </div>
-                    <!-- item 4 parag -->
-                    <p class="p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, impedit?
-                        Est quos eveniet expedita labore. Lorem ipsum dolor sit amet.</p>
+                    <div class="lg:col-span-2 col-span-3 border border-last">
+                        <!-- item 4  header -->
+                        <div class="border-b border-last p-4 flex items-center justify-between">
+                            <h3>
+                                Lorem ipsum dolor sit.
+                            </h3>
+                            <img src="./images/userava4.jpg" class="rounded-full" alt="">
+                        </div>
+                        <!-- item 4 parag -->
+                        <p class="p-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, impedit?
+                            Est quos eveniet expedita labore. Lorem ipsum dolor sit amet.</p>
 
                     <!-- item 4 footer -->
                     <div class="flex justify-end border-t items-center border-last space-x-4 font-bold text-xs">
@@ -551,7 +552,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
             </div>
         </div>
     </section>
@@ -559,15 +560,15 @@
     <!-- Footer Section -->
         <footer class="bg-black pt-8 pb-8 text-third ">
             <!-- Footer Container -->
-            <div class="container flex pb-8">
+            <div class="container flex pl-5 lg:pl-0 pb-8">
                 <!-- left -->
-                <div class="basis-1/3">
+                <div class="basis-1/2 lg:basis-1/3">
                     <a href=""
                 class=" text-4xl lg:text-6xl font-bold text-third text-transparent bg-gradient-to-r bg-clip-text from-first to-third"">Al2</a>
                 <p class="text-xs mt-2">2023 <a href=https://ealtugk.dev>ealtugk</a></p>
                 </div>
                 <!-- Middle -->
-                <div class="basis-1/3">
+                <div class="basis-1/2 lg:basis-1/3">
                     <h2 class="mb-2 text-third">
                         LINKS
                     </h2>
@@ -579,7 +580,7 @@
                         <a href="#" class="col-span-2 duration-500 hover:text-first"> About</a>
                     </div>
                 </div>
-                <div class="basis-1/3">
+                <div class="basis-1/3 hidden lg:block">
                     <h2 class="mb-2 text-">FOLLOW US</h2>
                     <form action="" class="flex">
                       <input class="py-1 px-2 bg-transparent border border-first placeholder:text-xs outline-none"
