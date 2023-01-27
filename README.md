@@ -1,4 +1,5 @@
 # Tailwind..
+Live Site: https://admirable-puffpuff-ee0d6a.netlify.app/
 # Movie Website
 
 This repository contains a movie website that showcases new movies, movie details such as plot, cast and reviews, search functionality and responsive design.
